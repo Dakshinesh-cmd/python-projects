@@ -1,1 +1,2 @@
-print('Hello, GitHub! This is Daksh\'s first Python program.')
+name = input('Dakshinesh')
+print(f'Hello, {name}! Welcome to my first GitHub Python project.')
