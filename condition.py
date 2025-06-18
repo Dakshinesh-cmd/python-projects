@@ -58,3 +58,24 @@ if people == 0:
 else:
  each_person_pays = bill / people
  print(f"Each person should pay: ₹{each_person_pays:.2f}")
+
+# admission eligibility
+
+age = int(input("Enter your age: "))
+mark = int(input("Enter your mark: "))
+if age >= 18:
+ if mark >= 60: print("Eligible for admission")
+else: print("Too young for admission.")
+ 
+#simple login system
+
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+
+if username == "admin":
+    if password == "12345":
+        print("Login successful")
+    else:
+        print("Incorrect password")
+else:
+    print("Username not found")
